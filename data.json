@@ -1,18 +1,41 @@
 {
   "source": "https://docs.google.com/document/d/1a43x7WAKps9MfEAEcAe0HG_CfZE7ZrCZlW8wyyU5BQI/edit",
-  "refreshedAt": "2026-09-24T14:19:10+07:00",
+  "refreshedAt": "2026-09-24T16:54:52+07:00",
   "rows": [
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
       "subScenario": "Registrasi Pasien",
       "prerequisite": "Bridging ke Membership dan Referral (Member code)",
+      "sitDates": [
+        "2026-09-04"
+      ],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": "2026-09-04",
       "uatDate": "2026-09-23"
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
+      "subScenario": "Integrasi create member",
+      "prerequisite": "",
+      "sitDates": [
+        "2026-10-09"
+      ],
+      "uatDates": [],
+      "sitDate": "2026-10-09",
+      "uatDate": null
+    },
+    {
+      "scenario": "Pelayanan Kunjungan Pasien Baru",
       "subScenario": "Pemeriksaan Awal (TTV)",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -20,6 +43,11 @@
       "scenario": "Pelayanan Kunjungan Pasien Baru",
       "subScenario": "Pemeriksaan Awal (RO)",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -27,6 +55,11 @@
       "scenario": "Pelayanan Kunjungan Pasien Baru",
       "subScenario": "Pemeriksaan Dokter",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -34,6 +67,10 @@
       "scenario": "Pelayanan Kunjungan Pasien Baru",
       "subScenario": "Pemeriksaan Penunjang",
       "prerequisite": "Bridging ke Alat (Jika alatnya bisa diinterfacing)",
+      "sitDates": [],
+      "uatDates": [
+        "2026-10-02"
+      ],
       "sitDate": null,
       "uatDate": "2026-10-02"
     },
@@ -41,6 +78,13 @@
       "scenario": "Pelayanan Kunjungan Pasien Baru",
       "subScenario": "Kasir",
       "prerequisite": "Bridging ke POS",
+      "sitDates": [
+        "2026-09-23",
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-02"
+      ],
       "sitDate": "2026-10-07",
       "uatDate": "2026-10-02"
     },
@@ -48,6 +92,11 @@
       "scenario": "Pelayanan Kunjungan Pasien Baru",
       "subScenario": "Farmasi",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -55,6 +104,11 @@
       "scenario": "Pelayanan Kunjungan Pasien Lama",
       "subScenario": "Registrasi Pasien",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -62,6 +116,11 @@
       "scenario": "Pelayanan Kunjungan Pasien Lama",
       "subScenario": "Pemeriksaan Awal (TTV)",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -69,6 +128,10 @@
       "scenario": "Pelayanan Kunjungan Pasien Lama",
       "subScenario": "Pemeriksaan Awal (RO)",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -76,6 +139,11 @@
       "scenario": "Pelayanan Kunjungan Pasien Lama",
       "subScenario": "Pemeriksaan Dokter",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -83,6 +151,10 @@
       "scenario": "Pelayanan Kunjungan Pasien Lama",
       "subScenario": "Pemeriksaan Penunjang",
       "prerequisite": "Bridging ke Alat (Jika alatnya bisa diinterfacing)",
+      "sitDates": [],
+      "uatDates": [
+        "2026-10-02"
+      ],
       "sitDate": null,
       "uatDate": "2026-10-02"
     },
@@ -90,6 +162,12 @@
       "scenario": "Pelayanan Kunjungan Pasien Lama",
       "subScenario": "Kasir",
       "prerequisite": "Bridging ke POS",
+      "sitDates": [
+        "2026-09-23"
+      ],
+      "uatDates": [
+        "2026-10-02"
+      ],
       "sitDate": "2026-09-23",
       "uatDate": "2026-10-02"
     },
@@ -97,6 +175,11 @@
       "scenario": "Pelayanan Kunjungan Pasien Lama",
       "subScenario": "Farmasi",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -104,6 +187,13 @@
       "scenario": "Pendaftaran Telekonsultasi Pasien Baru via Optik",
       "subScenario": "Registrasi Pasien",
       "prerequisite": "Bridging ke Membership dan Referral (Member code)",
+      "sitDates": [
+        "2026-09-04"
+      ],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": "2026-09-04",
       "uatDate": "2026-09-23"
     },
@@ -111,6 +201,11 @@
       "scenario": "Pendaftaran Telekonsultasi Pasien Baru via Optik",
       "subScenario": "Pemeriksaan Awal (RO)",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -118,6 +213,11 @@
       "scenario": "Pendaftaran Telekonsultasi Pasien Baru via Optik",
       "subScenario": "Pemeriksaan Dokter",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -125,6 +225,11 @@
       "scenario": "Pendaftaran Telekonsultasi Pasien Lama via Optik",
       "subScenario": "Registrasi Pasien",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -132,6 +237,11 @@
       "scenario": "Pendaftaran Telekonsultasi Pasien Lama via Optik",
       "subScenario": "Pemeriksaan Awal (RO)",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -139,6 +249,11 @@
       "scenario": "Pendaftaran Telekonsultasi Pasien Lama via Optik",
       "subScenario": "Pemeriksaan Dokter",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -146,62 +261,117 @@
       "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
       "subScenario": "Booking Pasien",
       "prerequisite": "Bridging ke Membership dan Referral (Member code)",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-23",
+        "2026-09-25"
+      ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-25"
     },
     {
       "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
       "subScenario": "Notifikasi Appointment",
       "prerequisite": "Bridging ke WhatsApp",
+      "sitDates": [
+        "2026-09-11"
+      ],
+      "uatDates": [
+        "2026-09-25",
+        "2026-10-28"
+      ],
       "sitDate": "2026-09-11",
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-10-28"
     },
     {
       "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
       "subScenario": "Notifikasi Konfirmasi H-1",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-25",
+        "2026-10-28"
+      ],
       "sitDate": null,
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-10-28"
     },
     {
       "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
       "subScenario": "Notifikasi Dibatalkan",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-25",
+        "2026-10-28"
+      ],
       "sitDate": null,
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-10-28"
     },
     {
       "scenario": "Appointment Kunjungan Pasien LamaVia Optik",
       "subScenario": "Registrasi pasien",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-25",
+        "2026-10-28"
+      ],
       "sitDate": null,
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-10-28"
     },
     {
       "scenario": "Appointment Kunjungan Pasien LamaVia Optik",
       "subScenario": "Notifikasi Appointment",
       "prerequisite": "Bridging ke WhatsApp",
+      "sitDates": [
+        "2026-09-11"
+      ],
+      "uatDates": [
+        "2026-09-25",
+        "2026-10-28"
+      ],
       "sitDate": "2026-09-11",
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-10-28"
     },
     {
       "scenario": "Appointment Kunjungan Pasien LamaVia Optik",
       "subScenario": "Notifikasi Konfirmasi H-1",
       "prerequisite": "",
+      "sitDates": [
+        "2026-09-11"
+      ],
+      "uatDates": [
+        "2026-09-25",
+        "2026-10-28"
+      ],
       "sitDate": "2026-09-11",
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-10-28"
     },
     {
       "scenario": "Appointment Kunjungan Pasien LamaVia Optik",
       "subScenario": "Notifikasi Dibatalkan",
       "prerequisite": "",
+      "sitDates": [
+        "2026-09-11"
+      ],
+      "uatDates": [
+        "2026-09-25",
+        "2026-10-28"
+      ],
       "sitDate": "2026-09-11",
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-10-28"
     },
     {
       "scenario": "Appointment Kunjungan via Mobile App dan Website",
       "subScenario": "Registrasi Pasien",
       "prerequisite": "Bridging ke Mobile App dan Website",
+      "sitDates": [
+        "2026-10-02",
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-16"
+      ],
       "sitDate": "2026-10-07",
       "uatDate": "2026-10-16"
     },
@@ -209,6 +379,13 @@
       "scenario": "Appointment Kunjungan via Mobile App dan Website",
       "subScenario": "Info Jadwal Dokter",
       "prerequisite": "",
+      "sitDates": [
+        "2026-10-02",
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-16"
+      ],
       "sitDate": "2026-10-07",
       "uatDate": "2026-10-16"
     },
@@ -216,6 +393,13 @@
       "scenario": "Appointment Kunjungan via Mobile App dan Website",
       "subScenario": "Info Status Pembayaran",
       "prerequisite": "Bridging ke Payment Gateway",
+      "sitDates": [
+        "2026-10-02",
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-16"
+      ],
       "sitDate": "2026-10-07",
       "uatDate": "2026-10-16"
     },
@@ -223,6 +407,11 @@
       "scenario": "Appointment Telekonsultasi Pasien Baru Via Optik",
       "subScenario": "Booking Telekonsultasi",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -230,27 +419,53 @@
       "scenario": "Appointment Telekonsultasi Pasien Baru Via Optik",
       "subScenario": "Notifikasi Appointment",
       "prerequisite": "Bridging ke WhatsAppBridging ke WhatsApp",
+      "sitDates": [
+        "2026-09-11"
+      ],
+      "uatDates": [
+        "2026-09-25",
+        "2026-10-28"
+      ],
       "sitDate": "2026-09-11",
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-10-28"
     },
     {
       "scenario": "Appointment Telekonsultasi Pasien Baru Via Optik",
       "subScenario": "Notifikasi Konfirmasi H-1",
       "prerequisite": "",
+      "sitDates": [
+        "2026-09-11"
+      ],
+      "uatDates": [
+        "2026-09-25",
+        "2026-10-28"
+      ],
       "sitDate": "2026-09-11",
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-10-28"
     },
     {
       "scenario": "Appointment Telekonsultasi Pasien Baru Via Optik",
       "subScenario": "Notifikasi Dibatalkan",
       "prerequisite": "",
+      "sitDates": [
+        "2026-09-11"
+      ],
+      "uatDates": [
+        "2026-09-25",
+        "2026-10-28"
+      ],
       "sitDate": "2026-09-11",
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-10-28"
     },
     {
       "scenario": "Appointment Telekonsultasi Pasien Lama Via Optik",
       "subScenario": "Registrasi pasien",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -258,27 +473,53 @@
       "scenario": "Appointment Telekonsultasi Pasien Lama Via Optik",
       "subScenario": "Notifikasi Appointment",
       "prerequisite": "Bridging ke WhatsApp",
+      "sitDates": [
+        "2026-09-11"
+      ],
+      "uatDates": [
+        "2026-09-25",
+        "2026-10-28"
+      ],
       "sitDate": "2026-09-11",
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-10-28"
     },
     {
       "scenario": "Appointment Telekonsultasi Pasien Lama Via Optik",
       "subScenario": "Notifikasi Konfirmasi H-1",
       "prerequisite": "",
+      "sitDates": [
+        "2026-09-11"
+      ],
+      "uatDates": [
+        "2026-09-25",
+        "2026-10-28"
+      ],
       "sitDate": "2026-09-11",
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-10-28"
     },
     {
       "scenario": "Appointment Telekonsultasi Pasien Lama Via Optik",
       "subScenario": "Notifikasi Dibatalkan",
       "prerequisite": "",
+      "sitDates": [
+        "2026-09-11"
+      ],
+      "uatDates": [
+        "2026-09-25",
+        "2026-10-28"
+      ],
       "sitDate": "2026-09-11",
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-10-28"
     },
     {
       "scenario": "Telekonsultasi",
       "subScenario": "Pemeriksaan Dokter (via zoom), pengisian SOAP di sistem",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -286,6 +527,13 @@
       "scenario": "Anjungan Pendaftaran Mandiri (APM)",
       "subScenario": "Registrasi Pasien Baru via APM",
       "prerequisite": "Bridging ke Membership dan Referral (Member code)",
+      "sitDates": [
+        "2026-09-04"
+      ],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": "2026-09-04",
       "uatDate": "2026-09-23"
     },
@@ -293,6 +541,11 @@
       "scenario": "Anjungan Pendaftaran Mandiri (APM)",
       "subScenario": "Registrasi Kunjungan via APM",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -300,6 +553,11 @@
       "scenario": "Anjungan Pendaftaran Mandiri (APM)",
       "subScenario": "Check-In Pasien via APM",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-09",
+        "2026-09-23"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-23"
     },
@@ -307,6 +565,10 @@
       "scenario": "Operasi Beda Hari",
       "subScenario": "PBO",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-18"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-18"
     },
@@ -314,6 +576,10 @@
       "scenario": "Operasi Beda Hari",
       "subScenario": "Appointment Ruang Tindakan",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-18"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-18"
     },
@@ -321,6 +587,10 @@
       "scenario": "Operasi Beda Hari",
       "subScenario": "Check-in di hari H operasi",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-18"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-18"
     },
@@ -328,6 +598,10 @@
       "scenario": "Operasi Beda Hari",
       "subScenario": "Pelayanan Operasi",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-18"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-18"
     },
@@ -335,13 +609,24 @@
       "scenario": "Operasi Beda Hari",
       "subScenario": "Kasir",
       "prerequisite": "Bridging ke POS",
-      "sitDate": "2026-09-30",
+      "sitDates": [
+        "2026-09-30",
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-16"
+      ],
+      "sitDate": "2026-10-07",
       "uatDate": "2026-10-16"
     },
     {
       "scenario": "Operasi Sama Hari",
       "subScenario": "PBO",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-18"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-18"
     },
@@ -349,6 +634,10 @@
       "scenario": "Operasi Sama Hari",
       "subScenario": "Appointment Ruang Tindakan",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-18"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-18"
     },
@@ -356,6 +645,10 @@
       "scenario": "Operasi Sama Hari",
       "subScenario": "Check-in di jam operasi",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-18"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-18"
     },
@@ -363,6 +656,10 @@
       "scenario": "Operasi Sama Hari",
       "subScenario": "Pelayanan Operasi",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-18"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-18"
     },
@@ -370,6 +667,12 @@
       "scenario": "Operasi Sama Hari",
       "subScenario": "Kasir",
       "prerequisite": "Bridging ke POS",
+      "sitDates": [
+        "2026-09-30"
+      ],
+      "uatDates": [
+        "2026-10-16"
+      ],
       "sitDate": "2026-09-30",
       "uatDate": "2026-10-16"
     },
@@ -377,20 +680,41 @@
       "scenario": "Master Promo",
       "subScenario": "Pembuatan Promo",
       "prerequisite": "",
-      "sitDate": null,
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
+      "sitDate": "2026-10-07",
       "uatDate": "2026-10-16"
     },
     {
       "scenario": "Master Promo",
       "subScenario": "Issued Promo (Kasir)",
       "prerequisite": "",
-      "sitDate": null,
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
+      "sitDate": "2026-10-07",
       "uatDate": "2026-10-16"
     },
     {
       "scenario": "Master Promo",
       "subScenario": "Redeem Promo (Kasir)",
       "prerequisite": "Bridging ke Magento/ICAPOS",
+      "sitDates": [
+        "2026-09-30"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
       "sitDate": "2026-09-30",
       "uatDate": "2026-10-16"
     },
@@ -398,6 +722,13 @@
       "scenario": "Master Voucher",
       "subScenario": "Pembuatan Voucher",
       "prerequisite": "Bridging ke Magento/ICAPOS",
+      "sitDates": [
+        "2026-09-30"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
       "sitDate": "2026-09-30",
       "uatDate": "2026-10-16"
     },
@@ -405,27 +736,55 @@
       "scenario": "Master Voucher",
       "subScenario": "Issued Voucher (Kasir)",
       "prerequisite": "",
-      "sitDate": null,
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
+      "sitDate": "2026-10-07",
       "uatDate": "2026-10-16"
     },
     {
       "scenario": "Master Voucher",
       "subScenario": "Redeem Promo (Kasir)",
       "prerequisite": "",
-      "sitDate": null,
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
+      "sitDate": "2026-10-07",
       "uatDate": "2026-10-16"
     },
     {
       "scenario": "Master Point",
       "subScenario": "Pembuatan Point",
       "prerequisite": "",
-      "sitDate": null,
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
+      "sitDate": "2026-10-07",
       "uatDate": "2026-10-16"
     },
     {
       "scenario": "Master Point",
       "subScenario": "Issued Point (Kasir)",
       "prerequisite": "Bridging ke Magento/ICAPOS",
+      "sitDates": [
+        "2026-09-30"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
       "sitDate": "2026-09-30",
       "uatDate": "2026-10-16"
     },
@@ -433,6 +792,13 @@
       "scenario": "Master Point",
       "subScenario": "Redeem Point (Kasir)",
       "prerequisite": "",
+      "sitDates": [
+        "2026-09-30"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
       "sitDate": "2026-09-30",
       "uatDate": "2026-10-16"
     },
@@ -440,13 +806,27 @@
       "scenario": "Master Referral",
       "subScenario": "Pembuatan Referral",
       "prerequisite": "",
-      "sitDate": null,
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
+      "sitDate": "2026-10-07",
       "uatDate": "2026-10-16"
     },
     {
       "scenario": "Master Referral",
       "subScenario": "Pemakaian Kode Referral",
       "prerequisite": "Bridging ke Magento/ICAPOS",
+      "sitDates": [
+        "2026-09-30"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
       "sitDate": "2026-09-30",
       "uatDate": "2026-10-16"
     },
@@ -454,13 +834,27 @@
       "scenario": "Master Referral",
       "subScenario": "Redeem Referral (Kasir)",
       "prerequisite": "",
+      "sitDates": [
+        "2026-09-30"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
       "sitDate": "2026-09-30",
       "uatDate": "2026-10-16"
     },
     {
       "scenario": "Inventory",
       "subScenario": "PO",
-      "prerequisite": "Bridging Ke Magento/ICAPOS",
+      "prerequisite": "Bridging Key Magento/ICAPOS",
+      "sitDates": [
+        "2026-10-07",
+        "2026-10-14"
+      ],
+      "uatDates": [
+        "2026-10-21"
+      ],
       "sitDate": "2026-10-14",
       "uatDate": "2026-10-21"
     },
@@ -468,6 +862,13 @@
       "scenario": "Inventory",
       "subScenario": "RO",
       "prerequisite": "",
+      "sitDates": [
+        "2026-10-07",
+        "2026-10-14"
+      ],
+      "uatDates": [
+        "2026-10-21"
+      ],
       "sitDate": "2026-10-14",
       "uatDate": "2026-10-21"
     },
@@ -475,6 +876,13 @@
       "scenario": "Inventory",
       "subScenario": "Receive Mutasi",
       "prerequisite": "",
+      "sitDates": [
+        "2026-10-07",
+        "2026-10-14"
+      ],
+      "uatDates": [
+        "2026-10-21"
+      ],
       "sitDate": "2026-10-14",
       "uatDate": "2026-10-21"
     },
@@ -482,6 +890,13 @@
       "scenario": "Inventory",
       "subScenario": "Mutasi item",
       "prerequisite": "",
+      "sitDates": [
+        "2026-10-07",
+        "2026-10-14"
+      ],
+      "uatDates": [
+        "2026-10-21"
+      ],
       "sitDate": "2026-10-14",
       "uatDate": "2026-10-21"
     },
@@ -489,6 +904,13 @@
       "scenario": "Inventory",
       "subScenario": "Pemusnahan Item",
       "prerequisite": "",
+      "sitDates": [
+        "2026-10-07",
+        "2026-10-14"
+      ],
+      "uatDates": [
+        "2026-10-21"
+      ],
       "sitDate": "2026-10-14",
       "uatDate": "2026-10-21"
     },
@@ -496,34 +918,66 @@
       "scenario": "Inventory",
       "subScenario": "Stock Opname",
       "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-09"
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-21"
+      ],
+      "sitDate": "2026-10-07",
+      "uatDate": "2026-10-21"
     },
     {
       "scenario": "Inventory",
       "subScenario": "Stock Adjustment",
       "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-09"
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-21"
+      ],
+      "sitDate": "2026-10-07",
+      "uatDate": "2026-10-21"
     },
     {
       "scenario": "Inventory",
       "subScenario": "Internal Use",
       "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-09"
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-21"
+      ],
+      "sitDate": "2026-10-07",
+      "uatDate": "2026-10-21"
     },
     {
       "scenario": "Inventory",
       "subScenario": "Kartu Stok",
       "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-09"
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-21"
+      ],
+      "sitDate": "2026-10-07",
+      "uatDate": "2026-10-21"
     },
     {
       "scenario": "Manajemen User & Compliance",
       "subScenario": "Manajemen User",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-16"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-16"
     },
@@ -531,6 +985,10 @@
       "scenario": "Manajemen User & Compliance",
       "subScenario": "RBAC",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-16"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-16"
     },
@@ -538,6 +996,10 @@
       "scenario": "Manajemen User & Compliance",
       "subScenario": "Master Optik",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-16"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-16"
     },
@@ -545,6 +1007,10 @@
       "scenario": "Manajemen User & Compliance",
       "subScenario": "Master Klinik",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-16"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-16"
     },
@@ -552,90 +1018,171 @@
       "scenario": "Manajemen User & Compliance",
       "subScenario": "Bridging ke Satu Sehat",
       "prerequisite": "",
-      "sitDate": "2026-10-30",
+      "sitDates": [
+        "2026-10-28"
+      ],
+      "uatDates": [
+        "2026-10-30"
+      ],
+      "sitDate": "2026-10-28",
       "uatDate": "2026-10-30"
     },
     {
       "scenario": "Kas Klinik",
       "subScenario": "Modal",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-14"
+      ],
       "sitDate": null,
-      "uatDate": "2026-10-09"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Kas Klinik",
       "subScenario": "Jadwal Setoran",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-14"
+      ],
       "sitDate": null,
-      "uatDate": "2026-10-09"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Kas Klinik",
       "subScenario": "Pengajuan Pengeluaran",
       "prerequisite": "Bridging ke Magento/ICAPOS",
+      "sitDates": [
+        "2026-09-23"
+      ],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-14"
+      ],
       "sitDate": "2026-09-23",
-      "uatDate": "2026-10-09"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Kas Klinik",
       "subScenario": "Transaksi Kas",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-14"
+      ],
       "sitDate": null,
-      "uatDate": "2026-10-09"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Report",
       "subScenario": "Report Inventory",
       "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-09"
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-21"
+      ],
+      "sitDate": "2026-10-07",
+      "uatDate": "2026-10-21"
     },
     {
       "scenario": "Report",
       "subScenario": "Report Kunjungan",
       "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-09"
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-21"
+      ],
+      "sitDate": "2026-10-07",
+      "uatDate": "2026-10-21"
     },
     {
       "scenario": "Report",
       "subScenario": "Report rekap diagnosa",
       "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-09"
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-21"
+      ],
+      "sitDate": "2026-10-07",
+      "uatDate": "2026-10-21"
     },
     {
       "scenario": "Report",
       "subScenario": "Report rekap tindakan",
       "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-09"
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-21"
+      ],
+      "sitDate": "2026-10-07",
+      "uatDate": "2026-10-21"
     },
     {
       "scenario": "Report",
       "subScenario": "Report Farmasi",
       "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-09"
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-21"
+      ],
+      "sitDate": "2026-10-07",
+      "uatDate": "2026-10-21"
     },
     {
       "scenario": "Report",
       "subScenario": "Report Kasir",
       "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-09"
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-21"
+      ],
+      "sitDate": "2026-10-07",
+      "uatDate": "2026-10-21"
     },
     {
       "scenario": "Report",
       "subScenario": "Report Kas",
       "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-09"
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-09",
+        "2026-10-21"
+      ],
+      "sitDate": "2026-10-07",
+      "uatDate": "2026-10-21"
     },
     {
       "scenario": "Monitoring Hardware (Interfacing)",
       "subScenario": "Supore RMK900 - Autoref/Keratometry",
       "prerequisite": "Interface angka",
+      "sitDates": [],
+      "uatDates": [
+        "2026-10-02"
+      ],
       "sitDate": null,
       "uatDate": "2026-10-02"
     },
@@ -643,41 +1190,10 @@
       "scenario": "Monitoring Hardware (Interfacing)",
       "subScenario": "Huvitz HNT-1P - Non Contact Tonometer",
       "prerequisite": "Interface angka",
-      "sitDate": null,
-      "uatDate": "2026-10-02"
-    },
-    {
-      "scenario": "Monitoring Hardware (Interfacing)",
-      "subScenario": "Zeiss IOLMaster 700 - Biometry",
-      "prerequisite": "Upload Gambar",
-      "sitDate": null,
-      "uatDate": "2026-10-02"
-    },
-    {
-      "scenario": "Monitoring Hardware (Interfacing)",
-      "subScenario": "Main Meditech SVF-9000 - Perimetry",
-      "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-02"
-    },
-    {
-      "scenario": "Monitoring Hardware (Interfacing)",
-      "subScenario": "Medmont Corneal Topographer",
-      "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-02"
-    },
-    {
-      "scenario": "Monitoring Hardware (Interfacing)",
-      "subScenario": "OCT Visionix/Optovue Solix",
-      "prerequisite": "",
-      "sitDate": null,
-      "uatDate": "2026-10-02"
-    },
-    {
-      "scenario": "Monitoring Hardware (Interfacing)",
-      "subScenario": "Quantel A/B Scan",
-      "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-10-02"
+      ],
       "sitDate": null,
       "uatDate": "2026-10-02"
     },
@@ -685,6 +1201,10 @@
       "scenario": "Master",
       "subScenario": "Master Ruangan",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-16"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-16"
     },
@@ -692,6 +1212,10 @@
       "scenario": "Master",
       "subScenario": "Master Tarif Kerja Sama",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-16"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-16"
     },
@@ -699,6 +1223,10 @@
       "scenario": "Master",
       "subScenario": "Master Layanan",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-16"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-16"
     },
@@ -706,6 +1234,10 @@
       "scenario": "Master",
       "subScenario": "Master Paket",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-16"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-16"
     },
@@ -713,6 +1245,10 @@
       "scenario": "Master",
       "subScenario": "Master Gudang",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-16"
+      ],
       "sitDate": null,
       "uatDate": "2026-09-16"
     },
@@ -720,6 +1256,11 @@
       "scenario": "Master",
       "subScenario": "Master Transaksi",
       "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
       "sitDate": null,
       "uatDate": "2026-10-16"
     },
@@ -727,13 +1268,27 @@
       "scenario": "Deposit",
       "subScenario": "Top-up Deposit (Pasien dan Calon Pasien)",
       "prerequisite": "",
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
       "sitDate": "2026-10-07",
       "uatDate": "2026-10-16"
     },
     {
       "scenario": "Deposit",
       "subScenario": "Kasir",
-      "prerequisite": "Integr",
+      "prerequisite": "Integrasi ke ICAPOS",
+      "sitDates": [
+        "2026-10-07"
+      ],
+      "uatDates": [
+        "2026-10-14",
+        "2026-10-16"
+      ],
       "sitDate": "2026-10-07",
       "uatDate": "2026-10-16"
     }
@@ -875,12 +1430,6 @@
           "prerequisite": ""
         },
         {
-          "label": "Appointment Kunjungan Pasien BaruVia Optik - Booking Pasien",
-          "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
-          "subScenario": "Booking Pasien",
-          "prerequisite": "Bridging ke Membership dan Referral (Member code)"
-        },
-        {
           "label": "Appointment Telekonsultasi Pasien Baru Via Optik - Booking Telekonsultasi",
           "scenario": "Appointment Telekonsultasi Pasien Baru Via Optik",
           "subScenario": "Booking Telekonsultasi",
@@ -917,6 +1466,17 @@
           "prerequisite": ""
         }
       ]
+    },
+    "2026-10-09": {
+      "SIT": [
+        {
+          "label": "Pelayanan Kunjungan Pasien Baru - Integrasi create member",
+          "scenario": "Pelayanan Kunjungan Pasien Baru",
+          "subScenario": "Integrasi create member",
+          "prerequisite": ""
+        }
+      ],
+      "UAT": []
     },
     "2026-10-02": {
       "SIT": [],
@@ -956,36 +1516,6 @@
           "scenario": "Monitoring Hardware (Interfacing)",
           "subScenario": "Huvitz HNT-1P - Non Contact Tonometer",
           "prerequisite": "Interface angka"
-        },
-        {
-          "label": "Monitoring Hardware (Interfacing) - Zeiss IOLMaster 700 - Biometry",
-          "scenario": "Monitoring Hardware (Interfacing)",
-          "subScenario": "Zeiss IOLMaster 700 - Biometry",
-          "prerequisite": "Upload Gambar"
-        },
-        {
-          "label": "Monitoring Hardware (Interfacing) - Main Meditech SVF-9000 - Perimetry",
-          "scenario": "Monitoring Hardware (Interfacing)",
-          "subScenario": "Main Meditech SVF-9000 - Perimetry",
-          "prerequisite": ""
-        },
-        {
-          "label": "Monitoring Hardware (Interfacing) - Medmont Corneal Topographer",
-          "scenario": "Monitoring Hardware (Interfacing)",
-          "subScenario": "Medmont Corneal Topographer",
-          "prerequisite": ""
-        },
-        {
-          "label": "Monitoring Hardware (Interfacing) - OCT Visionix/Optovue Solix",
-          "scenario": "Monitoring Hardware (Interfacing)",
-          "subScenario": "OCT Visionix/Optovue Solix",
-          "prerequisite": ""
-        },
-        {
-          "label": "Monitoring Hardware (Interfacing) - Quantel A/B Scan",
-          "scenario": "Monitoring Hardware (Interfacing)",
-          "subScenario": "Quantel A/B Scan",
-          "prerequisite": ""
         }
       ]
     },
@@ -1016,6 +1546,114 @@
           "prerequisite": "Bridging ke Payment Gateway"
         },
         {
+          "label": "Operasi Beda Hari - Kasir",
+          "scenario": "Operasi Beda Hari",
+          "subScenario": "Kasir",
+          "prerequisite": "Bridging ke POS"
+        },
+        {
+          "label": "Master Promo - Pembuatan Promo",
+          "scenario": "Master Promo",
+          "subScenario": "Pembuatan Promo",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master Promo - Issued Promo (Kasir)",
+          "scenario": "Master Promo",
+          "subScenario": "Issued Promo (Kasir)",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master Voucher - Issued Voucher (Kasir)",
+          "scenario": "Master Voucher",
+          "subScenario": "Issued Voucher (Kasir)",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master Voucher - Redeem Promo (Kasir)",
+          "scenario": "Master Voucher",
+          "subScenario": "Redeem Promo (Kasir)",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master Point - Pembuatan Point",
+          "scenario": "Master Point",
+          "subScenario": "Pembuatan Point",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master Referral - Pembuatan Referral",
+          "scenario": "Master Referral",
+          "subScenario": "Pembuatan Referral",
+          "prerequisite": ""
+        },
+        {
+          "label": "Inventory - Stock Opname",
+          "scenario": "Inventory",
+          "subScenario": "Stock Opname",
+          "prerequisite": ""
+        },
+        {
+          "label": "Inventory - Stock Adjustment",
+          "scenario": "Inventory",
+          "subScenario": "Stock Adjustment",
+          "prerequisite": ""
+        },
+        {
+          "label": "Inventory - Internal Use",
+          "scenario": "Inventory",
+          "subScenario": "Internal Use",
+          "prerequisite": ""
+        },
+        {
+          "label": "Inventory - Kartu Stok",
+          "scenario": "Inventory",
+          "subScenario": "Kartu Stok",
+          "prerequisite": ""
+        },
+        {
+          "label": "Report - Report Inventory",
+          "scenario": "Report",
+          "subScenario": "Report Inventory",
+          "prerequisite": ""
+        },
+        {
+          "label": "Report - Report Kunjungan",
+          "scenario": "Report",
+          "subScenario": "Report Kunjungan",
+          "prerequisite": ""
+        },
+        {
+          "label": "Report - Report rekap diagnosa",
+          "scenario": "Report",
+          "subScenario": "Report rekap diagnosa",
+          "prerequisite": ""
+        },
+        {
+          "label": "Report - Report rekap tindakan",
+          "scenario": "Report",
+          "subScenario": "Report rekap tindakan",
+          "prerequisite": ""
+        },
+        {
+          "label": "Report - Report Farmasi",
+          "scenario": "Report",
+          "subScenario": "Report Farmasi",
+          "prerequisite": ""
+        },
+        {
+          "label": "Report - Report Kasir",
+          "scenario": "Report",
+          "subScenario": "Report Kasir",
+          "prerequisite": ""
+        },
+        {
+          "label": "Report - Report Kas",
+          "scenario": "Report",
+          "subScenario": "Report Kas",
+          "prerequisite": ""
+        },
+        {
           "label": "Deposit - Top-up Deposit (Pasien dan Calon Pasien)",
           "scenario": "Deposit",
           "subScenario": "Top-up Deposit (Pasien dan Calon Pasien)",
@@ -1025,10 +1663,21 @@
           "label": "Deposit - Kasir",
           "scenario": "Deposit",
           "subScenario": "Kasir",
-          "prerequisite": "Integr"
+          "prerequisite": "Integrasi ke ICAPOS"
         }
       ],
       "UAT": []
+    },
+    "2026-09-25": {
+      "SIT": [],
+      "UAT": [
+        {
+          "label": "Appointment Kunjungan Pasien BaruVia Optik - Booking Pasien",
+          "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
+          "subScenario": "Booking Pasien",
+          "prerequisite": "Bridging ke Membership dan Referral (Member code)"
+        }
+      ]
     },
     "2026-09-11": {
       "SIT": [
@@ -1095,8 +1744,15 @@
       ],
       "UAT": []
     },
-    "2026-09-25": {
-      "SIT": [],
+    "2026-10-28": {
+      "SIT": [
+        {
+          "label": "Manajemen User & Compliance - Bridging ke Satu Sehat",
+          "scenario": "Manajemen User & Compliance",
+          "subScenario": "Bridging ke Satu Sehat",
+          "prerequisite": ""
+        }
+      ],
       "UAT": [
         {
           "label": "Appointment Kunjungan Pasien BaruVia Optik - Notifikasi Appointment",
@@ -1299,7 +1955,7 @@
           "label": "Deposit - Kasir",
           "scenario": "Deposit",
           "subScenario": "Kasir",
-          "prerequisite": "Integr"
+          "prerequisite": "Integrasi ke ICAPOS"
         }
       ]
     },
@@ -1359,12 +2015,6 @@
     "2026-09-30": {
       "SIT": [
         {
-          "label": "Operasi Beda Hari - Kasir",
-          "scenario": "Operasi Beda Hari",
-          "subScenario": "Kasir",
-          "prerequisite": "Bridging ke POS"
-        },
-        {
           "label": "Operasi Sama Hari - Kasir",
           "scenario": "Operasi Sama Hari",
           "subScenario": "Kasir",
@@ -1415,7 +2065,7 @@
           "label": "Inventory - PO",
           "scenario": "Inventory",
           "subScenario": "PO",
-          "prerequisite": "Bridging Ke Magento/ICAPOS"
+          "prerequisite": "Bridging Key Magento/ICAPOS"
         },
         {
           "label": "Inventory - RO",
@@ -1442,7 +2092,32 @@
           "prerequisite": ""
         }
       ],
-      "UAT": []
+      "UAT": [
+        {
+          "label": "Kas Klinik - Modal",
+          "scenario": "Kas Klinik",
+          "subScenario": "Modal",
+          "prerequisite": ""
+        },
+        {
+          "label": "Kas Klinik - Jadwal Setoran",
+          "scenario": "Kas Klinik",
+          "subScenario": "Jadwal Setoran",
+          "prerequisite": ""
+        },
+        {
+          "label": "Kas Klinik - Pengajuan Pengeluaran",
+          "scenario": "Kas Klinik",
+          "subScenario": "Pengajuan Pengeluaran",
+          "prerequisite": "Bridging ke Magento/ICAPOS"
+        },
+        {
+          "label": "Kas Klinik - Transaksi Kas",
+          "scenario": "Kas Klinik",
+          "subScenario": "Transaksi Kas",
+          "prerequisite": ""
+        }
+      ]
     },
     "2026-10-21": {
       "SIT": [],
@@ -1451,7 +2126,7 @@
           "label": "Inventory - PO",
           "scenario": "Inventory",
           "subScenario": "PO",
-          "prerequisite": "Bridging Ke Magento/ICAPOS"
+          "prerequisite": "Bridging Key Magento/ICAPOS"
         },
         {
           "label": "Inventory - RO",
@@ -1476,12 +2151,7 @@
           "scenario": "Inventory",
           "subScenario": "Pemusnahan Item",
           "prerequisite": ""
-        }
-      ]
-    },
-    "2026-10-09": {
-      "SIT": [],
-      "UAT": [
+        },
         {
           "label": "Inventory - Stock Opname",
           "scenario": "Inventory",
@@ -1504,30 +2174,6 @@
           "label": "Inventory - Kartu Stok",
           "scenario": "Inventory",
           "subScenario": "Kartu Stok",
-          "prerequisite": ""
-        },
-        {
-          "label": "Kas Klinik - Modal",
-          "scenario": "Kas Klinik",
-          "subScenario": "Modal",
-          "prerequisite": ""
-        },
-        {
-          "label": "Kas Klinik - Jadwal Setoran",
-          "scenario": "Kas Klinik",
-          "subScenario": "Jadwal Setoran",
-          "prerequisite": ""
-        },
-        {
-          "label": "Kas Klinik - Pengajuan Pengeluaran",
-          "scenario": "Kas Klinik",
-          "subScenario": "Pengajuan Pengeluaran",
-          "prerequisite": "Bridging ke Magento/ICAPOS"
-        },
-        {
-          "label": "Kas Klinik - Transaksi Kas",
-          "scenario": "Kas Klinik",
-          "subScenario": "Transaksi Kas",
           "prerequisite": ""
         },
         {
@@ -1634,14 +2280,7 @@
       ]
     },
     "2026-10-30": {
-      "SIT": [
-        {
-          "label": "Manajemen User & Compliance - Bridging ke Satu Sehat",
-          "scenario": "Manajemen User & Compliance",
-          "subScenario": "Bridging ke Satu Sehat",
-          "prerequisite": ""
-        }
-      ],
+      "SIT": [],
       "UAT": [
         {
           "label": "Manajemen User & Compliance - Bridging ke Satu Sehat",

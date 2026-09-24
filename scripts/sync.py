@@ -73,13 +73,17 @@ def parse_rows(html):
         if not sub or not current_scenario:
             continue
         sit_dates, uat_dates = dates(sit), dates(uat)
+        sit_iso = sorted({iso(value) for value in sit_dates})
+        uat_iso = sorted({iso(value) for value in uat_dates})
         result.append({
             "scenario": current_scenario,
             "subScenario": sub,
             "prerequisite": prerequisite,
-            # The last date is the effective date when the source says reschedule/re-UAT.
-            "sitDate": iso(sit_dates[-1]) if sit_dates else None,
-            "uatDate": iso(uat_dates[-1]) if uat_dates else None,
+            "sitDates": sit_iso,
+            "uatDates": uat_iso,
+            # The latest chronological date is the effective date for reschedule/re-UAT.
+            "sitDate": sit_iso[-1] if sit_iso else None,
+            "uatDate": uat_iso[-1] if uat_iso else None,
         })
     if not result or not any(item["sitDate"] or item["uatDate"] for item in result):
         raise RuntimeError("No calendar dates found in Google Docs table")
