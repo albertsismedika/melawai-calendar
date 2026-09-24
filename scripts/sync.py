@@ -3,6 +3,7 @@
 import json
 import re
 import sys
+from urllib.parse import unquote
 from datetime import datetime, timezone, timedelta
 from html import unescape
 from html.parser import HTMLParser
@@ -10,6 +11,8 @@ from urllib.request import Request, urlopen
 
 SOURCE_URL = "https://docs.google.com/document/d/1a43x7WAKps9MfEAEcAe0HG_CfZE7ZrCZlW8wyyU5BQI/edit"
 EXPORT_URL = SOURCE_URL.replace("/edit", "/export?format=html")
+SCOPE_SOURCE_URL = "https://docs.google.com/document/d/1wXNFkmNGXnklR15dsUcCuufNT9E0C5b-pvDLa0vuC-g/edit?tab=t.0"
+SCOPE_EXPORT_URL = SCOPE_SOURCE_URL.split("?", 1)[0].replace("/edit", "/export?format=html")
 DATE_RE = re.compile(r"\b(\d{2}/\d{2}/\d{4})\b")
 
 
@@ -90,11 +93,32 @@ def parse_rows(html):
     return result
 
 
+def extract_scope_links(html):
+    # The scope document links three test-case sheets in section order:
+    # UAT 16-09, UAT 18-09, and the 23-09 re-test.
+    links = []
+    for encoded in re.findall(r'href="https://www\.google\.com/url\?q=([^"&]+)', html):
+        link = unquote(unescape(encoded)).replace("&amp;", "&")
+        if link.startswith("https://docs.google.com/"):
+            links.append(link)
+    if len(links) < 3:
+        raise RuntimeError("Expected three scope mapping links in the scope document")
+    return {
+        "2026-09-16": links[0],
+        "2026-09-18": links[1],
+        "2026-09-23": links[2],
+    }
+
+
 def main():
     request = Request(EXPORT_URL, headers={"User-Agent": "melawai-calendar-sync/1.0"})
     with urlopen(request, timeout=30) as response:
         html = response.read().decode("utf-8-sig")
+    scope_request = Request(SCOPE_EXPORT_URL, headers={"User-Agent": "melawai-calendar-sync/1.0"})
+    with urlopen(scope_request, timeout=30) as response:
+        scope_html = response.read().decode("utf-8-sig")
     rows = parse_rows(html)
+    scope_links = extract_scope_links(scope_html)
     events = {}
     for row in rows:
         label = f"{row['scenario']} - {row['subScenario']}"
@@ -109,7 +133,8 @@ def main():
                 })
 
     refreshed = datetime.now(timezone(timedelta(hours=7))).isoformat(timespec="seconds")
-    output = {"source": SOURCE_URL, "refreshedAt": refreshed, "rows": rows, "events": events}
+    output = {"source": SOURCE_URL, "scopeSource": SCOPE_SOURCE_URL, "scopeLinks": scope_links,
+              "refreshedAt": refreshed, "rows": rows, "events": events}
     with open("data.json", "w", encoding="utf-8") as target:
         json.dump(output, target, ensure_ascii=False, indent=2)
         target.write("\n")
