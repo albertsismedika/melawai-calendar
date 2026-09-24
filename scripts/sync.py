@@ -55,7 +55,17 @@ def parse_rows(html):
     result = []
     for row in parser.rows[1:]:
         if len(row) >= 7:
-            current_scenario, sub, prerequisite, sit, uat = row[1:6]
+            scenario, sub, prerequisite, sit, uat = row[1:6]
+            # Google Docs exports merged scenario cells as empty cells on
+            # continuation rows; retain the most recent non-empty scenario.
+            if scenario:
+                current_scenario = scenario
+        elif len(row) == 6:
+            # Rows with an empty numbering cell omit that first cell.
+            sub, prerequisite, sit, uat = row[1:5]
+        elif len(row) == 4:
+            # Rows with empty merged prerequisite cells omit that cell too.
+            sub, prerequisite, sit, uat = row[0], "", row[1], row[2]
         elif len(row) >= 5:
             sub, prerequisite, sit, uat = row[0:4]
         else:
