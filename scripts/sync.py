@@ -47,6 +47,8 @@ def dates(value):
 def active_dates(value):
     """Return dates that are still active, excluding cancelled alternatives."""
     text = value or ""
+    if "diputuskan setelah alat datang" in text.lower():
+        return []
     # Explicit reschedule/re-UAT destinations take precedence over the old date.
     destination = re.search(r"(?:reschedule|re-?uat)\s+ke\s+(.+)$", text, flags=re.IGNORECASE)
     if destination:
@@ -94,6 +96,12 @@ def parse_rows(html):
             continue
         sit_dates, uat_dates = dates(sit), dates(uat)
         sit_active, uat_active = active_dates(sit), active_dates(uat)
+        # Deferred equipment tests are intentionally omitted from both the
+        # active calendar and the detail history until the equipment arrives.
+        if "diputuskan setelah alat datang" in sit.lower():
+            sit_dates = []
+        if "diputuskan setelah alat datang" in uat.lower():
+            uat_dates = []
         sit_iso = sorted({iso(value) for value in sit_dates})
         uat_iso = sorted({iso(value) for value in uat_dates})
         sit_active_iso = sorted({iso(value) for value in sit_active})
