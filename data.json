@@ -6,7 +6,7 @@
     "2026-09-18": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1572048912#gid=1572048912",
     "2026-09-23": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1530802560#gid=1530802560"
   },
-  "refreshedAt": "2026-09-25T09:12:39+07:00",
+  "refreshedAt": "2026-09-25T09:28:13+07:00",
   "rows": [
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -83,7 +83,7 @@
         "2026-10-02"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-02",
+      "uatDate": null,
       "deferredEquipment": false
     },
     {
@@ -1555,36 +1555,6 @@
       ],
       "UAT": []
     },
-    "2026-10-02": {
-      "SIT": [
-        {
-          "label": "Appointment Kunjungan via Mobile App dan Website - Registrasi Pasien",
-          "scenario": "Appointment Kunjungan via Mobile App dan Website",
-          "subScenario": "Registrasi Pasien",
-          "prerequisite": "Bridging ke Mobile App dan Website"
-        },
-        {
-          "label": "Appointment Kunjungan via Mobile App dan Website - Info Jadwal Dokter",
-          "scenario": "Appointment Kunjungan via Mobile App dan Website",
-          "subScenario": "Info Jadwal Dokter",
-          "prerequisite": ""
-        },
-        {
-          "label": "Appointment Kunjungan via Mobile App dan Website - Info Status Pembayaran",
-          "scenario": "Appointment Kunjungan via Mobile App dan Website",
-          "subScenario": "Info Status Pembayaran",
-          "prerequisite": "Bridging ke Payment Gateway"
-        }
-      ],
-      "UAT": [
-        {
-          "label": "Pelayanan Kunjungan Pasien Baru - Pemeriksaan Penunjang",
-          "scenario": "Pelayanan Kunjungan Pasien Baru",
-          "subScenario": "Pemeriksaan Penunjang",
-          "prerequisite": "Bridging ke Alat (Jika alatnya bisa diinterfacing)"
-        }
-      ]
-    },
     "2026-10-07": {
       "SIT": [
         {
@@ -2008,6 +1978,29 @@
           "prerequisite": ""
         }
       ]
+    },
+    "2026-10-02": {
+      "SIT": [
+        {
+          "label": "Appointment Kunjungan via Mobile App dan Website - Registrasi Pasien",
+          "scenario": "Appointment Kunjungan via Mobile App dan Website",
+          "subScenario": "Registrasi Pasien",
+          "prerequisite": "Bridging ke Mobile App dan Website"
+        },
+        {
+          "label": "Appointment Kunjungan via Mobile App dan Website - Info Jadwal Dokter",
+          "scenario": "Appointment Kunjungan via Mobile App dan Website",
+          "subScenario": "Info Jadwal Dokter",
+          "prerequisite": ""
+        },
+        {
+          "label": "Appointment Kunjungan via Mobile App dan Website - Info Status Pembayaran",
+          "scenario": "Appointment Kunjungan via Mobile App dan Website",
+          "subScenario": "Info Status Pembayaran",
+          "prerequisite": "Bridging ke Payment Gateway"
+        }
+      ],
+      "UAT": []
     },
     "2026-10-16": {
       "SIT": [],
