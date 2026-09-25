@@ -98,10 +98,13 @@ def parse_rows(html):
         sit_active, uat_active = active_dates(sit), active_dates(uat)
         # Deferred equipment tests are intentionally omitted from both the
         # active calendar and the detail history until the equipment arrives.
+        deferred_equipment = "diputuskan setelah alat datang" in sit.lower() or "diputuskan setelah alat datang" in uat.lower()
         if "diputuskan setelah alat datang" in sit.lower():
             sit_dates = []
         if "diputuskan setelah alat datang" in uat.lower():
             uat_dates = []
+        if deferred_equipment:
+            continue
         sit_iso = sorted({iso(value) for value in sit_dates})
         uat_iso = sorted({iso(value) for value in uat_dates})
         sit_active_iso = sorted({iso(value) for value in sit_active})
@@ -115,6 +118,7 @@ def parse_rows(html):
             # The latest chronological date is the effective date for reschedule/re-UAT.
             "sitDate": sit_active_iso[-1] if sit_active_iso else None,
             "uatDate": uat_active_iso[-1] if uat_active_iso else None,
+            "deferredEquipment": deferred_equipment,
         })
     if not result or not any(item["sitDate"] or item["uatDate"] for item in result):
         raise RuntimeError("No calendar dates found in Google Docs table")

@@ -6,7 +6,7 @@
     "2026-09-18": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1572048912#gid=1572048912",
     "2026-09-23": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1530802560#gid=1530802560"
   },
-  "refreshedAt": "2026-09-25T08:47:19+07:00",
+  "refreshedAt": "2026-09-25T08:49:18+07:00",
   "rows": [
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -20,7 +20,8 @@
         "2026-09-23"
       ],
       "sitDate": "2026-09-04",
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -31,7 +32,8 @@
       ],
       "uatDates": [],
       "sitDate": "2026-10-09",
-      "uatDate": null
+      "uatDate": null,
+      "deferredEquipment": false
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -43,7 +45,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -55,7 +58,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -67,7 +71,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -78,7 +83,8 @@
         "2026-10-02"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-02"
+      "uatDate": "2026-10-02",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -92,7 +98,8 @@
         "2026-10-02"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-02"
+      "uatDate": "2026-10-02",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -104,7 +111,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Lama",
@@ -116,7 +124,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Lama",
@@ -128,7 +137,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Lama",
@@ -139,7 +149,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Lama",
@@ -151,16 +162,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
-    },
-    {
-      "scenario": "Pelayanan Kunjungan Pasien Lama",
-      "subScenario": "Pemeriksaan Penunjang",
-      "prerequisite": "Bridging ke Alat (Jika alatnya bisa diinterfacing)",
-      "sitDates": [],
-      "uatDates": [],
-      "sitDate": null,
-      "uatDate": null
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Lama",
@@ -173,7 +176,8 @@
         "2026-10-02"
       ],
       "sitDate": "2026-09-23",
-      "uatDate": "2026-10-02"
+      "uatDate": "2026-10-02",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pelayanan Kunjungan Pasien Lama",
@@ -185,7 +189,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pendaftaran Telekonsultasi Pasien Baru via Optik",
@@ -199,7 +204,8 @@
         "2026-09-23"
       ],
       "sitDate": "2026-09-04",
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pendaftaran Telekonsultasi Pasien Baru via Optik",
@@ -211,7 +217,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pendaftaran Telekonsultasi Pasien Baru via Optik",
@@ -223,7 +230,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pendaftaran Telekonsultasi Pasien Lama via Optik",
@@ -235,7 +243,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pendaftaran Telekonsultasi Pasien Lama via Optik",
@@ -247,7 +256,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Pendaftaran Telekonsultasi Pasien Lama via Optik",
@@ -259,7 +269,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
@@ -271,7 +282,8 @@
         "2026-09-25"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
@@ -285,7 +297,8 @@
         "2026-10-28"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-28"
+      "uatDate": "2026-10-28",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
@@ -297,7 +310,8 @@
         "2026-10-28"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-28"
+      "uatDate": "2026-10-28",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
@@ -309,7 +323,8 @@
         "2026-10-28"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-28"
+      "uatDate": "2026-10-28",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Kunjungan Pasien LamaVia Optik",
@@ -321,7 +336,8 @@
         "2026-10-28"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-28"
+      "uatDate": "2026-10-28",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Kunjungan Pasien LamaVia Optik",
@@ -335,7 +351,8 @@
         "2026-10-28"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-28"
+      "uatDate": "2026-10-28",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Kunjungan Pasien LamaVia Optik",
@@ -349,7 +366,8 @@
         "2026-10-28"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-28"
+      "uatDate": "2026-10-28",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Kunjungan Pasien LamaVia Optik",
@@ -363,7 +381,8 @@
         "2026-10-28"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-28"
+      "uatDate": "2026-10-28",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Kunjungan via Mobile App dan Website",
@@ -377,7 +396,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-02",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Kunjungan via Mobile App dan Website",
@@ -391,7 +411,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-02",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Kunjungan via Mobile App dan Website",
@@ -405,7 +426,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-02",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Telekonsultasi Pasien Baru Via Optik",
@@ -417,7 +439,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Telekonsultasi Pasien Baru Via Optik",
@@ -431,7 +454,8 @@
         "2026-10-28"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-28"
+      "uatDate": "2026-10-28",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Telekonsultasi Pasien Baru Via Optik",
@@ -445,7 +469,8 @@
         "2026-10-28"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-28"
+      "uatDate": "2026-10-28",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Telekonsultasi Pasien Baru Via Optik",
@@ -459,7 +484,8 @@
         "2026-10-28"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-28"
+      "uatDate": "2026-10-28",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Telekonsultasi Pasien Lama Via Optik",
@@ -471,7 +497,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Telekonsultasi Pasien Lama Via Optik",
@@ -485,7 +512,8 @@
         "2026-10-28"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-28"
+      "uatDate": "2026-10-28",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Telekonsultasi Pasien Lama Via Optik",
@@ -499,7 +527,8 @@
         "2026-10-28"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-28"
+      "uatDate": "2026-10-28",
+      "deferredEquipment": false
     },
     {
       "scenario": "Appointment Telekonsultasi Pasien Lama Via Optik",
@@ -513,7 +542,8 @@
         "2026-10-28"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-28"
+      "uatDate": "2026-10-28",
+      "deferredEquipment": false
     },
     {
       "scenario": "Telekonsultasi",
@@ -525,7 +555,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Anjungan Pendaftaran Mandiri (APM)",
@@ -539,7 +570,8 @@
         "2026-09-23"
       ],
       "sitDate": "2026-09-04",
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Anjungan Pendaftaran Mandiri (APM)",
@@ -551,7 +583,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Anjungan Pendaftaran Mandiri (APM)",
@@ -563,7 +596,8 @@
         "2026-09-23"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-23"
+      "uatDate": "2026-09-23",
+      "deferredEquipment": false
     },
     {
       "scenario": "Operasi Beda Hari",
@@ -574,7 +608,8 @@
         "2026-09-18"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-18"
+      "uatDate": "2026-09-18",
+      "deferredEquipment": false
     },
     {
       "scenario": "Operasi Beda Hari",
@@ -585,7 +620,8 @@
         "2026-09-18"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-18"
+      "uatDate": "2026-09-18",
+      "deferredEquipment": false
     },
     {
       "scenario": "Operasi Beda Hari",
@@ -596,7 +632,8 @@
         "2026-09-18"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-18"
+      "uatDate": "2026-09-18",
+      "deferredEquipment": false
     },
     {
       "scenario": "Operasi Beda Hari",
@@ -607,7 +644,8 @@
         "2026-09-18"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-18"
+      "uatDate": "2026-09-18",
+      "deferredEquipment": false
     },
     {
       "scenario": "Operasi Beda Hari",
@@ -621,7 +659,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Operasi Sama Hari",
@@ -632,7 +671,8 @@
         "2026-09-18"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-18"
+      "uatDate": "2026-09-18",
+      "deferredEquipment": false
     },
     {
       "scenario": "Operasi Sama Hari",
@@ -643,7 +683,8 @@
         "2026-09-18"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-18"
+      "uatDate": "2026-09-18",
+      "deferredEquipment": false
     },
     {
       "scenario": "Operasi Sama Hari",
@@ -654,7 +695,8 @@
         "2026-09-18"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-18"
+      "uatDate": "2026-09-18",
+      "deferredEquipment": false
     },
     {
       "scenario": "Operasi Sama Hari",
@@ -665,7 +707,8 @@
         "2026-09-18"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-18"
+      "uatDate": "2026-09-18",
+      "deferredEquipment": false
     },
     {
       "scenario": "Operasi Sama Hari",
@@ -678,7 +721,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-09-30",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master Promo",
@@ -692,7 +736,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master Promo",
@@ -706,7 +751,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master Promo",
@@ -720,7 +766,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-09-30",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master Voucher",
@@ -734,7 +781,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-09-30",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master Voucher",
@@ -748,7 +796,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master Voucher",
@@ -762,7 +811,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master Point",
@@ -776,7 +826,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master Point",
@@ -790,7 +841,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-09-30",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master Point",
@@ -804,7 +856,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-09-30",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master Referral",
@@ -818,7 +871,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master Referral",
@@ -832,7 +886,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-09-30",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master Referral",
@@ -846,7 +901,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-09-30",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Inventory",
@@ -860,7 +916,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Inventory",
@@ -874,7 +931,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Inventory",
@@ -888,7 +946,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Inventory",
@@ -902,7 +961,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Inventory",
@@ -916,7 +976,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Inventory",
@@ -930,7 +991,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Inventory",
@@ -944,7 +1006,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Inventory",
@@ -958,7 +1021,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Inventory",
@@ -972,7 +1036,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Manajemen User & Compliance",
@@ -983,7 +1048,8 @@
         "2026-09-16"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-16"
+      "uatDate": "2026-09-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Manajemen User & Compliance",
@@ -994,7 +1060,8 @@
         "2026-09-16"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-16"
+      "uatDate": "2026-09-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Manajemen User & Compliance",
@@ -1005,7 +1072,8 @@
         "2026-09-16"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-16"
+      "uatDate": "2026-09-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Manajemen User & Compliance",
@@ -1016,7 +1084,8 @@
         "2026-09-16"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-16"
+      "uatDate": "2026-09-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Manajemen User & Compliance",
@@ -1029,7 +1098,8 @@
         "2026-10-30"
       ],
       "sitDate": "2026-10-28",
-      "uatDate": "2026-10-30"
+      "uatDate": "2026-10-30",
+      "deferredEquipment": false
     },
     {
       "scenario": "Kas Klinik",
@@ -1041,7 +1111,8 @@
         "2026-10-14"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Kas Klinik",
@@ -1053,7 +1124,8 @@
         "2026-10-14"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Kas Klinik",
@@ -1067,7 +1139,8 @@
         "2026-10-14"
       ],
       "sitDate": "2026-09-23",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Kas Klinik",
@@ -1079,7 +1152,8 @@
         "2026-10-14"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Report",
@@ -1093,7 +1167,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Report",
@@ -1107,7 +1182,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Report",
@@ -1121,7 +1197,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Report",
@@ -1135,7 +1212,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Report",
@@ -1149,7 +1227,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Report",
@@ -1163,7 +1242,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Report",
@@ -1177,25 +1257,8 @@
         "2026-10-21"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-21"
-    },
-    {
-      "scenario": "Monitoring Hardware (Interfacing)",
-      "subScenario": "Supore RMK900 - Autoref/Keratometry",
-      "prerequisite": "Interface angka",
-      "sitDates": [],
-      "uatDates": [],
-      "sitDate": null,
-      "uatDate": null
-    },
-    {
-      "scenario": "Monitoring Hardware (Interfacing)",
-      "subScenario": "Huvitz HNT-1P - Non Contact Tonometer",
-      "prerequisite": "Interface angka",
-      "sitDates": [],
-      "uatDates": [],
-      "sitDate": null,
-      "uatDate": null
+      "uatDate": "2026-10-21",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master",
@@ -1206,7 +1269,8 @@
         "2026-09-16"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-16"
+      "uatDate": "2026-09-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master",
@@ -1217,7 +1281,8 @@
         "2026-09-16"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-16"
+      "uatDate": "2026-09-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master",
@@ -1228,7 +1293,8 @@
         "2026-09-16"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-16"
+      "uatDate": "2026-09-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master",
@@ -1239,7 +1305,8 @@
         "2026-09-16"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-16"
+      "uatDate": "2026-09-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master",
@@ -1250,7 +1317,8 @@
         "2026-09-16"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-16"
+      "uatDate": "2026-09-16",
+      "deferredEquipment": false
     },
     {
       "scenario": "Master",
@@ -1262,7 +1330,8 @@
         "2026-10-16"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Deposit",
@@ -1276,7 +1345,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     },
     {
       "scenario": "Deposit",
@@ -1290,7 +1360,8 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-14"
+      "uatDate": "2026-10-14",
+      "deferredEquipment": false
     }
   ],
   "events": {
