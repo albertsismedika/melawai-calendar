@@ -6,7 +6,7 @@
     "2026-09-18": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1572048912#gid=1572048912",
     "2026-09-23": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1530802560#gid=1530802560"
   },
-  "refreshedAt": "2026-09-25T14:01:40+07:00",
+  "refreshedAt": "2026-09-25T14:04:03+07:00",
   "rows": [
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -80,11 +80,10 @@
       "prerequisite": "Bridging ke Alat (Jika alatnya bisa diinterfacing)",
       "sitDates": [],
       "uatDates": [
-        "2026-10-02",
         "2026-11-11"
       ],
       "sitDate": null,
-      "uatDate": null,
+      "uatDate": "2026-11-11",
       "deferredEquipment": false
     },
     {
@@ -164,6 +163,16 @@
       ],
       "sitDate": null,
       "uatDate": "2026-09-23",
+      "deferredEquipment": false
+    },
+    {
+      "scenario": "Pelayanan Kunjungan Pasien Lama",
+      "subScenario": "Pemeriksaan Penunjang",
+      "prerequisite": "Bridging ke Alat (Jika alatnya bisa diinterfacing)",
+      "sitDates": [],
+      "uatDates": [],
+      "sitDate": null,
+      "uatDate": "2026-11-11",
       "deferredEquipment": false
     },
     {
@@ -1264,6 +1273,26 @@
       "deferredEquipment": false
     },
     {
+      "scenario": "Monitoring Hardware (Interfacing)",
+      "subScenario": "Supore RMK900 - Autoref/Keratometry",
+      "prerequisite": "Interface angka",
+      "sitDates": [],
+      "uatDates": [],
+      "sitDate": null,
+      "uatDate": "2026-11-11",
+      "deferredEquipment": false
+    },
+    {
+      "scenario": "Monitoring Hardware (Interfacing)",
+      "subScenario": "Huvitz HNT-1P - Non Contact Tonometer",
+      "prerequisite": "Interface angka",
+      "sitDates": [],
+      "uatDates": [],
+      "sitDate": null,
+      "uatDate": "2026-11-11",
+      "deferredEquipment": false
+    },
+    {
       "scenario": "Master",
       "subScenario": "Master Ruangan",
       "prerequisite": "",
@@ -1593,6 +1622,35 @@
         }
       ],
       "UAT": []
+    },
+    "2026-11-11": {
+      "SIT": [],
+      "UAT": [
+        {
+          "label": "Pelayanan Kunjungan Pasien Baru - Pemeriksaan Penunjang",
+          "scenario": "Pelayanan Kunjungan Pasien Baru",
+          "subScenario": "Pemeriksaan Penunjang",
+          "prerequisite": "Bridging ke Alat (Jika alatnya bisa diinterfacing)"
+        },
+        {
+          "label": "Pelayanan Kunjungan Pasien Lama - Pemeriksaan Penunjang",
+          "scenario": "Pelayanan Kunjungan Pasien Lama",
+          "subScenario": "Pemeriksaan Penunjang",
+          "prerequisite": "Bridging ke Alat (Jika alatnya bisa diinterfacing)"
+        },
+        {
+          "label": "Monitoring Hardware (Interfacing) - Supore RMK900 - Autoref/Keratometry",
+          "scenario": "Monitoring Hardware (Interfacing)",
+          "subScenario": "Supore RMK900 - Autoref/Keratometry",
+          "prerequisite": "Interface angka"
+        },
+        {
+          "label": "Monitoring Hardware (Interfacing) - Huvitz HNT-1P - Non Contact Tonometer",
+          "scenario": "Monitoring Hardware (Interfacing)",
+          "subScenario": "Huvitz HNT-1P - Non Contact Tonometer",
+          "prerequisite": "Interface angka"
+        }
+      ]
     },
     "2026-10-07": {
       "SIT": [

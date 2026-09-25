@@ -14,6 +14,7 @@ EXPORT_URL = SOURCE_URL.replace("/edit", "/export?format=html")
 SCOPE_SOURCE_URL = "https://docs.google.com/document/d/1wXNFkmNGXnklR15dsUcCuufNT9E0C5b-pvDLa0vuC-g/edit?tab=t.0"
 SCOPE_EXPORT_URL = SCOPE_SOURCE_URL.split("?", 1)[0].replace("/edit", "/export?format=html")
 DATE_RE = re.compile(r"\b(\d{2}/\d{2}/\d{4})\b")
+ESTIMATE_RE = re.compile(r"estimasi\s*(\d{2}/\d{2}/\d{4})\b", re.IGNORECASE)
 
 
 class TableParser(HTMLParser):
@@ -44,9 +45,20 @@ def dates(value):
     return DATE_RE.findall(value or "")
 
 
+def estimated_dates(value):
+    """Return replacement dates explicitly introduced as an estimate."""
+    return ESTIMATE_RE.findall(value or "")
+
+
 def active_dates(value):
     """Return dates that are still active, excluding cancelled alternatives."""
     text = value or ""
+    # A deferred equipment date becomes active only when the source explicitly
+    # provides an estimate. This must take precedence over the cancelled date
+    # earlier in the same cell.
+    estimate = estimated_dates(text)
+    if estimate:
+        return estimate
     if "diputuskan setelah alat datang" in text.lower():
         return []
     # Explicit reschedule/re-UAT destinations take precedence over the old date.
@@ -99,10 +111,20 @@ def parse_rows(html):
         if not sub or not current_scenario:
             continue
         sit_dates, uat_dates = dates(sit), dates(uat)
+        sit_estimates, uat_estimates = estimated_dates(sit), estimated_dates(uat)
+        # Do not retain the cancelled/deferred date in the published dataset
+        # when an explicit estimated replacement is available.
+        if sit_estimates:
+            sit_dates = sit_estimates
+        if uat_estimates:
+            uat_dates = uat_estimates
         sit_active, uat_active = active_dates(sit), active_dates(uat)
         # Deferred equipment tests are intentionally omitted from both the
         # active calendar and the detail history until the equipment arrives.
-        deferred_equipment = "diputuskan setelah alat datang" in sit.lower() or "diputuskan setelah alat datang" in uat.lower()
+        deferred_equipment = (
+            ("diputuskan setelah alat datang" in sit.lower() or "diputuskan setelah alat datang" in uat.lower())
+            and not (sit_estimates or uat_estimates)
+        )
         if "diputuskan setelah alat datang" in sit.lower():
             sit_dates = []
         if "diputuskan setelah alat datang" in uat.lower():
