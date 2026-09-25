@@ -44,6 +44,17 @@ def dates(value):
     return DATE_RE.findall(value or "")
 
 
+def active_dates(value):
+    """Return dates that are still active, excluding cancelled alternatives."""
+    text = value or ""
+    if "cancelled" in text.lower():
+        # A later conditional date, e.g. "Jika WhatsApp segera ready 28/10/2026",
+        # is the replacement candidate. Dates before it are cancelled.
+        conditional = re.search(r"\bJika\b(.*)$", text, flags=re.IGNORECASE)
+        return dates(conditional.group(1)) if conditional else []
+    return dates(text)
+
+
 def iso(date):
     return datetime.strptime(date, "%d/%m/%Y").strftime("%Y-%m-%d")
 
@@ -76,8 +87,11 @@ def parse_rows(html):
         if not sub or not current_scenario:
             continue
         sit_dates, uat_dates = dates(sit), dates(uat)
+        sit_active, uat_active = active_dates(sit), active_dates(uat)
         sit_iso = sorted({iso(value) for value in sit_dates})
         uat_iso = sorted({iso(value) for value in uat_dates})
+        sit_active_iso = sorted({iso(value) for value in sit_active})
+        uat_active_iso = sorted({iso(value) for value in uat_active})
         result.append({
             "scenario": current_scenario,
             "subScenario": sub,
@@ -85,8 +99,8 @@ def parse_rows(html):
             "sitDates": sit_iso,
             "uatDates": uat_iso,
             # The latest chronological date is the effective date for reschedule/re-UAT.
-            "sitDate": sit_iso[-1] if sit_iso else None,
-            "uatDate": uat_iso[-1] if uat_iso else None,
+            "sitDate": sit_active_iso[-1] if sit_active_iso else None,
+            "uatDate": uat_active_iso[-1] if uat_active_iso else None,
         })
     if not result or not any(item["sitDate"] or item["uatDate"] for item in result):
         raise RuntimeError("No calendar dates found in Google Docs table")

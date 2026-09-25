@@ -6,7 +6,7 @@
     "2026-09-18": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1572048912#gid=1572048912",
     "2026-09-23": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1530802560#gid=1530802560"
   },
-  "refreshedAt": "2026-09-25T08:11:43+07:00",
+  "refreshedAt": "2026-09-25T08:14:46+07:00",
   "rows": [
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -286,7 +286,7 @@
         "2026-09-25",
         "2026-10-28"
       ],
-      "sitDate": "2026-09-11",
+      "sitDate": null,
       "uatDate": "2026-10-28"
     },
     {
@@ -336,7 +336,7 @@
         "2026-09-25",
         "2026-10-28"
       ],
-      "sitDate": "2026-09-11",
+      "sitDate": null,
       "uatDate": "2026-10-28"
     },
     {
@@ -350,7 +350,7 @@
         "2026-09-25",
         "2026-10-28"
       ],
-      "sitDate": "2026-09-11",
+      "sitDate": null,
       "uatDate": "2026-10-28"
     },
     {
@@ -364,7 +364,7 @@
         "2026-09-25",
         "2026-10-28"
       ],
-      "sitDate": "2026-09-11",
+      "sitDate": null,
       "uatDate": "2026-10-28"
     },
     {
@@ -432,7 +432,7 @@
         "2026-09-25",
         "2026-10-28"
       ],
-      "sitDate": "2026-09-11",
+      "sitDate": null,
       "uatDate": "2026-10-28"
     },
     {
@@ -446,7 +446,7 @@
         "2026-09-25",
         "2026-10-28"
       ],
-      "sitDate": "2026-09-11",
+      "sitDate": null,
       "uatDate": "2026-10-28"
     },
     {
@@ -460,7 +460,7 @@
         "2026-09-25",
         "2026-10-28"
       ],
-      "sitDate": "2026-09-11",
+      "sitDate": null,
       "uatDate": "2026-10-28"
     },
     {
@@ -486,7 +486,7 @@
         "2026-09-25",
         "2026-10-28"
       ],
-      "sitDate": "2026-09-11",
+      "sitDate": null,
       "uatDate": "2026-10-28"
     },
     {
@@ -500,7 +500,7 @@
         "2026-09-25",
         "2026-10-28"
       ],
-      "sitDate": "2026-09-11",
+      "sitDate": null,
       "uatDate": "2026-10-28"
     },
     {
@@ -514,7 +514,7 @@
         "2026-09-25",
         "2026-10-28"
       ],
-      "sitDate": "2026-09-11",
+      "sitDate": null,
       "uatDate": "2026-10-28"
     },
     {
@@ -1684,71 +1684,6 @@
           "prerequisite": "Bridging ke Membership dan Referral (Member code)"
         }
       ]
-    },
-    "2026-09-11": {
-      "SIT": [
-        {
-          "label": "Appointment Kunjungan Pasien BaruVia Optik - Notifikasi Appointment",
-          "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
-          "subScenario": "Notifikasi Appointment",
-          "prerequisite": "Bridging ke WhatsApp"
-        },
-        {
-          "label": "Appointment Kunjungan Pasien LamaVia Optik - Notifikasi Appointment",
-          "scenario": "Appointment Kunjungan Pasien LamaVia Optik",
-          "subScenario": "Notifikasi Appointment",
-          "prerequisite": "Bridging ke WhatsApp"
-        },
-        {
-          "label": "Appointment Kunjungan Pasien LamaVia Optik - Notifikasi Konfirmasi H-1",
-          "scenario": "Appointment Kunjungan Pasien LamaVia Optik",
-          "subScenario": "Notifikasi Konfirmasi H-1",
-          "prerequisite": ""
-        },
-        {
-          "label": "Appointment Kunjungan Pasien LamaVia Optik - Notifikasi Dibatalkan",
-          "scenario": "Appointment Kunjungan Pasien LamaVia Optik",
-          "subScenario": "Notifikasi Dibatalkan",
-          "prerequisite": ""
-        },
-        {
-          "label": "Appointment Telekonsultasi Pasien Baru Via Optik - Notifikasi Appointment",
-          "scenario": "Appointment Telekonsultasi Pasien Baru Via Optik",
-          "subScenario": "Notifikasi Appointment",
-          "prerequisite": "Bridging ke WhatsAppBridging ke WhatsApp"
-        },
-        {
-          "label": "Appointment Telekonsultasi Pasien Baru Via Optik - Notifikasi Konfirmasi H-1",
-          "scenario": "Appointment Telekonsultasi Pasien Baru Via Optik",
-          "subScenario": "Notifikasi Konfirmasi H-1",
-          "prerequisite": ""
-        },
-        {
-          "label": "Appointment Telekonsultasi Pasien Baru Via Optik - Notifikasi Dibatalkan",
-          "scenario": "Appointment Telekonsultasi Pasien Baru Via Optik",
-          "subScenario": "Notifikasi Dibatalkan",
-          "prerequisite": ""
-        },
-        {
-          "label": "Appointment Telekonsultasi Pasien Lama Via Optik - Notifikasi Appointment",
-          "scenario": "Appointment Telekonsultasi Pasien Lama Via Optik",
-          "subScenario": "Notifikasi Appointment",
-          "prerequisite": "Bridging ke WhatsApp"
-        },
-        {
-          "label": "Appointment Telekonsultasi Pasien Lama Via Optik - Notifikasi Konfirmasi H-1",
-          "scenario": "Appointment Telekonsultasi Pasien Lama Via Optik",
-          "subScenario": "Notifikasi Konfirmasi H-1",
-          "prerequisite": ""
-        },
-        {
-          "label": "Appointment Telekonsultasi Pasien Lama Via Optik - Notifikasi Dibatalkan",
-          "scenario": "Appointment Telekonsultasi Pasien Lama Via Optik",
-          "subScenario": "Notifikasi Dibatalkan",
-          "prerequisite": ""
-        }
-      ],
-      "UAT": []
     },
     "2026-10-28": {
       "SIT": [
