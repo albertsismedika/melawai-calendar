@@ -6,7 +6,7 @@
     "2026-09-18": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1572048912#gid=1572048912",
     "2026-09-23": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1530802560#gid=1530802560"
   },
-  "refreshedAt": "2026-09-25T11:50:10+07:00",
+  "refreshedAt": "2026-09-25T12:04:00+07:00",
   "rows": [
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -80,7 +80,8 @@
       "prerequisite": "Bridging ke Alat (Jika alatnya bisa diinterfacing)",
       "sitDates": [],
       "uatDates": [
-        "2026-10-02"
+        "2026-10-02",
+        "2026-11-11"
       ],
       "sitDate": null,
       "uatDate": null,
