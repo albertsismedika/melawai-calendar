@@ -6,7 +6,7 @@
     "2026-09-18": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1572048912#gid=1572048912",
     "2026-09-23": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1530802560#gid=1530802560"
   },
-  "refreshedAt": "2026-09-25T09:28:13+07:00",
+  "refreshedAt": "2026-09-25T11:27:59+07:00",
   "rows": [
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -1276,11 +1276,13 @@
       "scenario": "Master",
       "subScenario": "Master Tarif Kerja Sama",
       "prerequisite": "",
-      "sitDates": [],
+      "sitDates": [
+        "2026-10-09"
+      ],
       "uatDates": [
         "2026-09-16"
       ],
-      "sitDate": null,
+      "sitDate": "2026-10-09",
       "uatDate": "2026-09-16",
       "deferredEquipment": false
     },
@@ -1288,11 +1290,13 @@
       "scenario": "Master",
       "subScenario": "Master Layanan",
       "prerequisite": "",
-      "sitDates": [],
+      "sitDates": [
+        "2026-10-09"
+      ],
       "uatDates": [
         "2026-09-16"
       ],
-      "sitDate": null,
+      "sitDate": "2026-10-09",
       "uatDate": "2026-09-16",
       "deferredEquipment": false
     },
@@ -1300,11 +1304,13 @@
       "scenario": "Master",
       "subScenario": "Master Paket",
       "prerequisite": "",
-      "sitDates": [],
+      "sitDates": [
+        "2026-10-09"
+      ],
       "uatDates": [
         "2026-09-16"
       ],
-      "sitDate": null,
+      "sitDate": "2026-10-09",
       "uatDate": "2026-09-16",
       "deferredEquipment": false
     },
@@ -1361,6 +1367,18 @@
       ],
       "sitDate": "2026-10-07",
       "uatDate": "2026-10-14",
+      "deferredEquipment": false
+    },
+    {
+      "scenario": "Review Feedback UAT",
+      "subScenario": "Review Feedback UAT",
+      "prerequisite": "",
+      "sitDates": [],
+      "uatDates": [
+        "2026-09-30"
+      ],
+      "sitDate": null,
+      "uatDate": "2026-09-30",
       "deferredEquipment": false
     }
   ],
@@ -1550,6 +1568,24 @@
           "label": "Pelayanan Kunjungan Pasien Baru - Integrasi create member",
           "scenario": "Pelayanan Kunjungan Pasien Baru",
           "subScenario": "Integrasi create member",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master - Master Tarif Kerja Sama",
+          "scenario": "Master",
+          "subScenario": "Master Tarif Kerja Sama",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master - Master Layanan",
+          "scenario": "Master",
+          "subScenario": "Master Layanan",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master - Master Paket",
+          "scenario": "Master",
+          "subScenario": "Master Paket",
           "prerequisite": ""
         }
       ],
@@ -2257,6 +2293,17 @@
           "label": "Manajemen User & Compliance - Bridging ke Satu Sehat",
           "scenario": "Manajemen User & Compliance",
           "subScenario": "Bridging ke Satu Sehat",
+          "prerequisite": ""
+        }
+      ]
+    },
+    "2026-09-30": {
+      "SIT": [],
+      "UAT": [
+        {
+          "label": "Review Feedback UAT - Review Feedback UAT",
+          "scenario": "Review Feedback UAT",
+          "subScenario": "Review Feedback UAT",
           "prerequisite": ""
         }
       ]

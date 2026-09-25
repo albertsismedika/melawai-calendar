@@ -82,6 +82,10 @@ def parse_rows(html):
             # continuation rows; retain the most recent non-empty scenario.
             if scenario:
                 current_scenario = scenario
+            # Some dated summary rows (for example "Review Feedback UAT")
+            # have no sub-scenario cell; retain them as a valid scope item.
+            if scenario and not sub and dates(uat):
+                sub, prerequisite = scenario, ""
         elif len(row) == 6:
             # Rows with an empty numbering cell omit that first cell.
             sub, prerequisite, sit, uat = row[1:5]
