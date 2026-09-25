@@ -50,7 +50,7 @@ def active_dates(value):
     if "diputuskan setelah alat datang" in text.lower():
         return []
     # Explicit reschedule/re-UAT destinations take precedence over the old date.
-    destination = re.search(r"(?:reschedule|re-?uat)\s+ke\s+(.+)$", text, flags=re.IGNORECASE)
+    destination = re.search(r"(?:reschedule|re-?uat)\s+ke\s*(.+)$", text, flags=re.IGNORECASE)
     if destination:
         destination_dates = dates(destination.group(1))
         if destination_dates:
