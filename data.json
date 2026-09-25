@@ -6,7 +6,7 @@
     "2026-09-18": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1572048912#gid=1572048912",
     "2026-09-23": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1530802560#gid=1530802560"
   },
-  "refreshedAt": "2026-09-25T08:14:46+07:00",
+  "refreshedAt": "2026-09-25T08:16:51+07:00",
   "rows": [
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -273,7 +273,7 @@
         "2026-09-25"
       ],
       "sitDate": null,
-      "uatDate": "2026-09-25"
+      "uatDate": "2026-09-23"
     },
     {
       "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
@@ -378,7 +378,7 @@
       "uatDates": [
         "2026-10-16"
       ],
-      "sitDate": "2026-10-07",
+      "sitDate": "2026-10-02",
       "uatDate": "2026-10-16"
     },
     {
@@ -392,7 +392,7 @@
       "uatDates": [
         "2026-10-16"
       ],
-      "sitDate": "2026-10-07",
+      "sitDate": "2026-10-02",
       "uatDate": "2026-10-16"
     },
     {
@@ -406,7 +406,7 @@
       "uatDates": [
         "2026-10-16"
       ],
-      "sitDate": "2026-10-07",
+      "sitDate": "2026-10-02",
       "uatDate": "2026-10-16"
     },
     {
@@ -694,7 +694,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Master Promo",
@@ -708,7 +708,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Master Promo",
@@ -722,7 +722,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-09-30",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Master Voucher",
@@ -736,7 +736,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-09-30",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Master Voucher",
@@ -750,7 +750,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Master Voucher",
@@ -764,7 +764,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Master Point",
@@ -778,7 +778,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Master Point",
@@ -792,7 +792,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-09-30",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Master Point",
@@ -806,7 +806,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-09-30",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Master Referral",
@@ -820,7 +820,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Master Referral",
@@ -834,7 +834,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-09-30",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Master Referral",
@@ -848,7 +848,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-09-30",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Inventory",
@@ -861,7 +861,7 @@
       "uatDates": [
         "2026-10-21"
       ],
-      "sitDate": "2026-10-14",
+      "sitDate": "2026-10-07",
       "uatDate": "2026-10-21"
     },
     {
@@ -875,7 +875,7 @@
       "uatDates": [
         "2026-10-21"
       ],
-      "sitDate": "2026-10-14",
+      "sitDate": "2026-10-07",
       "uatDate": "2026-10-21"
     },
     {
@@ -889,7 +889,7 @@
       "uatDates": [
         "2026-10-21"
       ],
-      "sitDate": "2026-10-14",
+      "sitDate": "2026-10-07",
       "uatDate": "2026-10-21"
     },
     {
@@ -903,7 +903,7 @@
       "uatDates": [
         "2026-10-21"
       ],
-      "sitDate": "2026-10-14",
+      "sitDate": "2026-10-07",
       "uatDate": "2026-10-21"
     },
     {
@@ -917,7 +917,7 @@
       "uatDates": [
         "2026-10-21"
       ],
-      "sitDate": "2026-10-14",
+      "sitDate": "2026-10-07",
       "uatDate": "2026-10-21"
     },
     {
@@ -1268,7 +1268,7 @@
         "2026-10-16"
       ],
       "sitDate": null,
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Deposit",
@@ -1282,7 +1282,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     },
     {
       "scenario": "Deposit",
@@ -1296,7 +1296,7 @@
         "2026-10-16"
       ],
       "sitDate": "2026-10-07",
-      "uatDate": "2026-10-16"
+      "uatDate": "2026-10-14"
     }
   ],
   "events": {
@@ -1436,6 +1436,12 @@
           "prerequisite": ""
         },
         {
+          "label": "Appointment Kunjungan Pasien BaruVia Optik - Booking Pasien",
+          "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
+          "subScenario": "Booking Pasien",
+          "prerequisite": "Bridging ke Membership dan Referral (Member code)"
+        },
+        {
           "label": "Appointment Telekonsultasi Pasien Baru Via Optik - Booking Telekonsultasi",
           "scenario": "Appointment Telekonsultasi Pasien Baru Via Optik",
           "subScenario": "Booking Telekonsultasi",
@@ -1485,7 +1491,26 @@
       "UAT": []
     },
     "2026-10-02": {
-      "SIT": [],
+      "SIT": [
+        {
+          "label": "Appointment Kunjungan via Mobile App dan Website - Registrasi Pasien",
+          "scenario": "Appointment Kunjungan via Mobile App dan Website",
+          "subScenario": "Registrasi Pasien",
+          "prerequisite": "Bridging ke Mobile App dan Website"
+        },
+        {
+          "label": "Appointment Kunjungan via Mobile App dan Website - Info Jadwal Dokter",
+          "scenario": "Appointment Kunjungan via Mobile App dan Website",
+          "subScenario": "Info Jadwal Dokter",
+          "prerequisite": ""
+        },
+        {
+          "label": "Appointment Kunjungan via Mobile App dan Website - Info Status Pembayaran",
+          "scenario": "Appointment Kunjungan via Mobile App dan Website",
+          "subScenario": "Info Status Pembayaran",
+          "prerequisite": "Bridging ke Payment Gateway"
+        }
+      ],
       "UAT": [
         {
           "label": "Pelayanan Kunjungan Pasien Baru - Pemeriksaan Penunjang",
@@ -1534,24 +1559,6 @@
           "prerequisite": "Bridging ke POS"
         },
         {
-          "label": "Appointment Kunjungan via Mobile App dan Website - Registrasi Pasien",
-          "scenario": "Appointment Kunjungan via Mobile App dan Website",
-          "subScenario": "Registrasi Pasien",
-          "prerequisite": "Bridging ke Mobile App dan Website"
-        },
-        {
-          "label": "Appointment Kunjungan via Mobile App dan Website - Info Jadwal Dokter",
-          "scenario": "Appointment Kunjungan via Mobile App dan Website",
-          "subScenario": "Info Jadwal Dokter",
-          "prerequisite": ""
-        },
-        {
-          "label": "Appointment Kunjungan via Mobile App dan Website - Info Status Pembayaran",
-          "scenario": "Appointment Kunjungan via Mobile App dan Website",
-          "subScenario": "Info Status Pembayaran",
-          "prerequisite": "Bridging ke Payment Gateway"
-        },
-        {
           "label": "Operasi Beda Hari - Kasir",
           "scenario": "Operasi Beda Hari",
           "subScenario": "Kasir",
@@ -1591,6 +1598,36 @@
           "label": "Master Referral - Pembuatan Referral",
           "scenario": "Master Referral",
           "subScenario": "Pembuatan Referral",
+          "prerequisite": ""
+        },
+        {
+          "label": "Inventory - PO",
+          "scenario": "Inventory",
+          "subScenario": "PO",
+          "prerequisite": "Bridging Key Magento/ICAPOS"
+        },
+        {
+          "label": "Inventory - RO",
+          "scenario": "Inventory",
+          "subScenario": "RO",
+          "prerequisite": ""
+        },
+        {
+          "label": "Inventory - Receive Mutasi",
+          "scenario": "Inventory",
+          "subScenario": "Receive Mutasi",
+          "prerequisite": ""
+        },
+        {
+          "label": "Inventory - Mutasi item",
+          "scenario": "Inventory",
+          "subScenario": "Mutasi item",
+          "prerequisite": ""
+        },
+        {
+          "label": "Inventory - Pemusnahan Item",
+          "scenario": "Inventory",
+          "subScenario": "Pemusnahan Item",
           "prerequisite": ""
         },
         {
@@ -1673,17 +1710,6 @@
         }
       ],
       "UAT": []
-    },
-    "2026-09-25": {
-      "SIT": [],
-      "UAT": [
-        {
-          "label": "Appointment Kunjungan Pasien BaruVia Optik - Booking Pasien",
-          "scenario": "Appointment Kunjungan Pasien BaruVia Optik",
-          "subScenario": "Booking Pasien",
-          "prerequisite": "Bridging ke Membership dan Referral (Member code)"
-        }
-      ]
     },
     "2026-10-28": {
       "SIT": [
@@ -1807,96 +1833,6 @@
           "scenario": "Operasi Sama Hari",
           "subScenario": "Kasir",
           "prerequisite": "Bridging ke POS"
-        },
-        {
-          "label": "Master Promo - Pembuatan Promo",
-          "scenario": "Master Promo",
-          "subScenario": "Pembuatan Promo",
-          "prerequisite": ""
-        },
-        {
-          "label": "Master Promo - Issued Promo (Kasir)",
-          "scenario": "Master Promo",
-          "subScenario": "Issued Promo (Kasir)",
-          "prerequisite": ""
-        },
-        {
-          "label": "Master Promo - Redeem Promo (Kasir)",
-          "scenario": "Master Promo",
-          "subScenario": "Redeem Promo (Kasir)",
-          "prerequisite": "Bridging ke Magento/ICAPOS"
-        },
-        {
-          "label": "Master Voucher - Pembuatan Voucher",
-          "scenario": "Master Voucher",
-          "subScenario": "Pembuatan Voucher",
-          "prerequisite": "Bridging ke Magento/ICAPOS"
-        },
-        {
-          "label": "Master Voucher - Issued Voucher (Kasir)",
-          "scenario": "Master Voucher",
-          "subScenario": "Issued Voucher (Kasir)",
-          "prerequisite": ""
-        },
-        {
-          "label": "Master Voucher - Redeem Promo (Kasir)",
-          "scenario": "Master Voucher",
-          "subScenario": "Redeem Promo (Kasir)",
-          "prerequisite": ""
-        },
-        {
-          "label": "Master Point - Pembuatan Point",
-          "scenario": "Master Point",
-          "subScenario": "Pembuatan Point",
-          "prerequisite": ""
-        },
-        {
-          "label": "Master Point - Issued Point (Kasir)",
-          "scenario": "Master Point",
-          "subScenario": "Issued Point (Kasir)",
-          "prerequisite": "Bridging ke Magento/ICAPOS"
-        },
-        {
-          "label": "Master Point - Redeem Point (Kasir)",
-          "scenario": "Master Point",
-          "subScenario": "Redeem Point (Kasir)",
-          "prerequisite": ""
-        },
-        {
-          "label": "Master Referral - Pembuatan Referral",
-          "scenario": "Master Referral",
-          "subScenario": "Pembuatan Referral",
-          "prerequisite": ""
-        },
-        {
-          "label": "Master Referral - Pemakaian Kode Referral",
-          "scenario": "Master Referral",
-          "subScenario": "Pemakaian Kode Referral",
-          "prerequisite": "Bridging ke Magento/ICAPOS"
-        },
-        {
-          "label": "Master Referral - Redeem Referral (Kasir)",
-          "scenario": "Master Referral",
-          "subScenario": "Redeem Referral (Kasir)",
-          "prerequisite": ""
-        },
-        {
-          "label": "Master - Master Transaksi",
-          "scenario": "Master",
-          "subScenario": "Master Transaksi",
-          "prerequisite": ""
-        },
-        {
-          "label": "Deposit - Top-up Deposit (Pasien dan Calon Pasien)",
-          "scenario": "Deposit",
-          "subScenario": "Top-up Deposit (Pasien dan Calon Pasien)",
-          "prerequisite": ""
-        },
-        {
-          "label": "Deposit - Kasir",
-          "scenario": "Deposit",
-          "subScenario": "Kasir",
-          "prerequisite": "Integrasi ke ICAPOS"
         }
       ]
     },
@@ -2001,39 +1937,80 @@
       "UAT": []
     },
     "2026-10-14": {
-      "SIT": [
-        {
-          "label": "Inventory - PO",
-          "scenario": "Inventory",
-          "subScenario": "PO",
-          "prerequisite": "Bridging Key Magento/ICAPOS"
-        },
-        {
-          "label": "Inventory - RO",
-          "scenario": "Inventory",
-          "subScenario": "RO",
-          "prerequisite": ""
-        },
-        {
-          "label": "Inventory - Receive Mutasi",
-          "scenario": "Inventory",
-          "subScenario": "Receive Mutasi",
-          "prerequisite": ""
-        },
-        {
-          "label": "Inventory - Mutasi item",
-          "scenario": "Inventory",
-          "subScenario": "Mutasi item",
-          "prerequisite": ""
-        },
-        {
-          "label": "Inventory - Pemusnahan Item",
-          "scenario": "Inventory",
-          "subScenario": "Pemusnahan Item",
-          "prerequisite": ""
-        }
-      ],
+      "SIT": [],
       "UAT": [
+        {
+          "label": "Master Promo - Pembuatan Promo",
+          "scenario": "Master Promo",
+          "subScenario": "Pembuatan Promo",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master Promo - Issued Promo (Kasir)",
+          "scenario": "Master Promo",
+          "subScenario": "Issued Promo (Kasir)",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master Promo - Redeem Promo (Kasir)",
+          "scenario": "Master Promo",
+          "subScenario": "Redeem Promo (Kasir)",
+          "prerequisite": "Bridging ke Magento/ICAPOS"
+        },
+        {
+          "label": "Master Voucher - Pembuatan Voucher",
+          "scenario": "Master Voucher",
+          "subScenario": "Pembuatan Voucher",
+          "prerequisite": "Bridging ke Magento/ICAPOS"
+        },
+        {
+          "label": "Master Voucher - Issued Voucher (Kasir)",
+          "scenario": "Master Voucher",
+          "subScenario": "Issued Voucher (Kasir)",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master Voucher - Redeem Promo (Kasir)",
+          "scenario": "Master Voucher",
+          "subScenario": "Redeem Promo (Kasir)",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master Point - Pembuatan Point",
+          "scenario": "Master Point",
+          "subScenario": "Pembuatan Point",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master Point - Issued Point (Kasir)",
+          "scenario": "Master Point",
+          "subScenario": "Issued Point (Kasir)",
+          "prerequisite": "Bridging ke Magento/ICAPOS"
+        },
+        {
+          "label": "Master Point - Redeem Point (Kasir)",
+          "scenario": "Master Point",
+          "subScenario": "Redeem Point (Kasir)",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master Referral - Pembuatan Referral",
+          "scenario": "Master Referral",
+          "subScenario": "Pembuatan Referral",
+          "prerequisite": ""
+        },
+        {
+          "label": "Master Referral - Pemakaian Kode Referral",
+          "scenario": "Master Referral",
+          "subScenario": "Pemakaian Kode Referral",
+          "prerequisite": "Bridging ke Magento/ICAPOS"
+        },
+        {
+          "label": "Master Referral - Redeem Referral (Kasir)",
+          "scenario": "Master Referral",
+          "subScenario": "Redeem Referral (Kasir)",
+          "prerequisite": ""
+        },
         {
           "label": "Kas Klinik - Modal",
           "scenario": "Kas Klinik",
@@ -2057,6 +2034,24 @@
           "scenario": "Kas Klinik",
           "subScenario": "Transaksi Kas",
           "prerequisite": ""
+        },
+        {
+          "label": "Master - Master Transaksi",
+          "scenario": "Master",
+          "subScenario": "Master Transaksi",
+          "prerequisite": ""
+        },
+        {
+          "label": "Deposit - Top-up Deposit (Pasien dan Calon Pasien)",
+          "scenario": "Deposit",
+          "subScenario": "Top-up Deposit (Pasien dan Calon Pasien)",
+          "prerequisite": ""
+        },
+        {
+          "label": "Deposit - Kasir",
+          "scenario": "Deposit",
+          "subScenario": "Kasir",
+          "prerequisite": "Integrasi ke ICAPOS"
         }
       ]
     },
