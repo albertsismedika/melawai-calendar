@@ -3,10 +3,12 @@
 import json
 import re
 import sys
+import time
 from urllib.parse import unquote
 from datetime import datetime, timezone, timedelta
 from html import unescape
 from html.parser import HTMLParser
+from urllib.error import URLError
 from urllib.request import Request, urlopen
 
 SOURCE_URL = "https://docs.google.com/document/d/1a43x7WAKps9MfEAEcAe0HG_CfZE7ZrCZlW8wyyU5BQI/edit"
@@ -168,13 +170,29 @@ def extract_scope_links(html):
     }
 
 
+def fetch(url, attempts=3, timeout=60, backoff=5):
+    """Download a text resource, retrying transient failures with backoff."""
+    last_error = None
+    for attempt in range(1, attempts + 1):
+        try:
+            request = Request(url, headers={"User-Agent": "melawai-calendar-sync/1.0"})
+            with urlopen(request, timeout=timeout) as response:
+                return response.read().decode("utf-8-sig")
+        except (URLError, TimeoutError, OSError) as error:
+            last_error = error
+            if attempt < attempts:
+                delay = backoff * (2 ** (attempt - 1))
+                print(
+                    f"fetch attempt {attempt}/{attempts} failed for {url}: {error}; retrying in {delay}s",
+                    file=sys.stderr,
+                )
+                time.sleep(delay)
+    raise RuntimeError(f"failed to fetch {url} after {attempts} attempts: {last_error}")
+
+
 def main():
-    request = Request(EXPORT_URL, headers={"User-Agent": "melawai-calendar-sync/1.0"})
-    with urlopen(request, timeout=30) as response:
-        html = response.read().decode("utf-8-sig")
-    scope_request = Request(SCOPE_EXPORT_URL, headers={"User-Agent": "melawai-calendar-sync/1.0"})
-    with urlopen(scope_request, timeout=30) as response:
-        scope_html = response.read().decode("utf-8-sig")
+    html = fetch(EXPORT_URL)
+    scope_html = fetch(SCOPE_EXPORT_URL)
     rows = parse_rows(html)
     scope_links = extract_scope_links(scope_html)
     events = {}
