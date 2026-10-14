@@ -6,7 +6,7 @@
     "2026-09-18": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1572048912#gid=1572048912",
     "2026-09-23": "https://docs.google.com/spreadsheets/d/1kGnQwcT4dMNR98BH6-exnmTcb4uYDRwlD-mVFvRl_N4/edit?gid=1530802560#gid=1530802560"
   },
-  "refreshedAt": "2026-10-14T16:52:52+07:00",
+  "refreshedAt": "2026-10-14T16:56:24+07:00",
   "rows": [
     {
       "scenario": "Pelayanan Kunjungan Pasien Baru",
@@ -1412,6 +1412,54 @@
       "sitDate": null,
       "uatDate": "2026-09-30",
       "deferredEquipment": false
+    },
+    {
+      "scenario": "End to End test (1)",
+      "subScenario": "End to End test (1)",
+      "prerequisite": "",
+      "sitDates": [
+        "2026-11-13"
+      ],
+      "uatDates": [],
+      "sitDate": "2026-11-13",
+      "uatDate": null,
+      "deferredEquipment": false
+    },
+    {
+      "scenario": "End to End test (2)",
+      "subScenario": "End to End test (2)",
+      "prerequisite": "",
+      "sitDates": [
+        "2026-11-16"
+      ],
+      "uatDates": [],
+      "sitDate": "2026-11-16",
+      "uatDate": null,
+      "deferredEquipment": false
+    },
+    {
+      "scenario": "End to End test (3)",
+      "subScenario": "End to End test (3)",
+      "prerequisite": "",
+      "sitDates": [
+        "2026-11-18"
+      ],
+      "uatDates": [],
+      "sitDate": "2026-11-18",
+      "uatDate": null,
+      "deferredEquipment": false
+    },
+    {
+      "scenario": "End to End test (4)",
+      "subScenario": "End to End test (4)",
+      "prerequisite": "",
+      "sitDates": [
+        "2026-11-20"
+      ],
+      "uatDates": [],
+      "sitDate": "2026-11-20",
+      "uatDate": null,
+      "deferredEquipment": false
     }
   ],
   "events": {
@@ -2368,6 +2416,50 @@
           "prerequisite": ""
         }
       ]
+    },
+    "2026-11-13": {
+      "SIT": [
+        {
+          "label": "End to End test (1) - End to End test (1)",
+          "scenario": "End to End test (1)",
+          "subScenario": "End to End test (1)",
+          "prerequisite": ""
+        }
+      ],
+      "UAT": []
+    },
+    "2026-11-16": {
+      "SIT": [
+        {
+          "label": "End to End test (2) - End to End test (2)",
+          "scenario": "End to End test (2)",
+          "subScenario": "End to End test (2)",
+          "prerequisite": ""
+        }
+      ],
+      "UAT": []
+    },
+    "2026-11-18": {
+      "SIT": [
+        {
+          "label": "End to End test (3) - End to End test (3)",
+          "scenario": "End to End test (3)",
+          "subScenario": "End to End test (3)",
+          "prerequisite": ""
+        }
+      ],
+      "UAT": []
+    },
+    "2026-11-20": {
+      "SIT": [
+        {
+          "label": "End to End test (4) - End to End test (4)",
+          "scenario": "End to End test (4)",
+          "subScenario": "End to End test (4)",
+          "prerequisite": ""
+        }
+      ],
+      "UAT": []
     }
   }
 }
